@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "urlcutter"
+version = "0.1.0"
+description = "Tiny URL shortener app with history"
+requires-python = ">=3.10"
+dependencies = [
+  "SQLAlchemy>=2.0",
+  "alembic>=1.13",
+  # опционально, если хочешь фиксировать и эти рантайм-зависимости:
+  # "flet>=0.20",
+  # "validators>=0.20",
+  # "pyperclip>=1.8"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["urlcutter*"]
+
+[tool.black]
+line-length = 120
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+extend-exclude = ["ver1.5.py"]
+
+[tool.ruff.lint]
+select = ["E","F","I","UP","B","SIM","W","PL"]
+ignore = ["E203"]  # совместимость с black
+
+[tool.ruff.lint.per-file-ignores]
+"lite_upgrade.py"       = ["PLC0415","PLR0915","PLR0912","PLR0911","PLR0913"]
+"url_cutter.py"         = ["PLR0915"]
+"urlcutter/__init__.py" = ["F401"]          # реэкспорты в пакете — ок
+"tests/**/*.py"         = ["PLR2004"]       # «магические числа» в тестах — ок
+"urlcutter/ui_builders.py" = ["PLR0913"]
+
+[tool.ruff.lint.isort]
+# важно: имя пакета без подчёркивания
+known-first-party = ["urlcutter"]
+
+[tool.setuptools.package-data]
+urlcutter = ["assets/**/*"]
+
+[tool.bumpversion]
+current_version = "0.1.0"
+commit = true
+tag = true

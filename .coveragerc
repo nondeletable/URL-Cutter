@@ -1,0 +1,14 @@
+[run]
+branch = True
+source = .
+omit =
+    tests/*
+    .venv/*
+    venv/*
+    ver1.5.py
+    url_cutter.py
+
+[report]
+skip_empty = True
+show_missing = True
+fail_under = 0

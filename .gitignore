@@ -1,0 +1,61 @@
+# --- Python venv & caches ---
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Test / coverage ---
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# --- Build / distribution (PyInstaller, setuptools, wheel) ---
+build/
+dist/
+*.egg-info/
+*.spec
+*.exe
+
+# --- Logs / temp ---
+logs/
+*.log
+debug_log.txt
+
+# --- IDE / editor ---
+.idea/
+.vscode/
+*.iml
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
+
+# --- Project specific ---
+scripts/packaging/
+
+# design / binaries
+/UI_Vector/
+/bin/
+
+# legacy root assets (перенесены в urlcutter/assets)
+/fonts/
+/img/
+/bg_scissors.svg
+/icon scissors*.png
+
+# legacy code
+/url_cutter.py
+/main.py
+/ver1.5.py
+
+# случайные файлы
+/tash apply stash@{0}
+/njrty.txt
+
+$null
+alembic_dev_history.db
+tree.txt
