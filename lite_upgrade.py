@@ -104,15 +104,16 @@ def main(page):  # можно без аннотации, чтобы не дер�
     import flet as ft  # NEW: нужен для Container
 
     import urlcutter.ui_builders as U  # noqa: PLC0415
-    from urlcutter.db.migrate import upgrade_to_head  # noqa: PLC0415
+
+    # from urlcutter.db.migrate import upgrade_to_head  # noqa: PLC0415
     from urlcutter.handlers import Handlers  # noqa: PLC0415
 
-    upgrade_to_head()
+    # upgrade_to_head()
 
     logger = setup_logging(enabled=LOG_ENABLED, debug=LOG_DEBUG)
     U.configure_window_and_theme(page)
 
-    # --- строим основной UI шортенера (как раньше) ---
+    # --- строим основной UI шортенера ---
     header_col = U.build_header()
     url_input_field, short_url_field = U.build_inputs()
     button_row, shorten_button, clear_button, copy_button = U.build_buttons()
