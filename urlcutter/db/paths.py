@@ -49,6 +49,7 @@ def user_data_dir() -> Path:
 def db_path() -> Path:
     """
     Path to the SQLite history database file inside the user data dir.
+
     Always: <user_data_dir>/history.db
     """
     return user_data_dir() / "history.db"
