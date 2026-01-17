@@ -106,54 +106,60 @@ class Handlers:
             webbrowser.open(url)
 
         dialog = ft.AlertDialog(
-            title=ft.Text("My contacts", text_align=ft.TextAlign.CENTER),
+            title=ft.Text("ABOUT", text_align=ft.TextAlign.CENTER, font_family="Rubik"),
             shape=ft.RoundedRectangleBorder(radius=8),
             content=ft.Column(
+                height=300,
+                width=270,
                 controls=[
                     ft.Text(
-                        "Hi! My name is Alexandra. I'm a Python developer. "
-                        "It's one of my apps. If you like my work, "
-                        "there are contacts below where you can contact me!",
-                        size=18,
+                        "Hi! My name is Alexandra.\n" "I'm a Python developer.\n" "Thank you for using my app!",
+                        size=20,
+                        text_align=ft.TextAlign.CENTER,
+                        font_family="Rubik2",
+                        width=300,
                     ),
+                    ft.Text(
+                        "If you’d like to say thanks, leave feedback, report a bug, or discuss"
+                        "collaboration, feel free to contact me via Discord, Email, or GitHub.",
+                        size=15,
+                        text_align=ft.TextAlign.CENTER,
+                        font_family="Rubik2",
+                    ),
+                    ft.Container(height=10),
+                    # Ряд с круглыми кнопками
                     ft.Row(
                         controls=[
-                            ft.Text("My website:", expand=1, size=18),
-                            ft.IconButton(
-                                icon=ft.Icons.WEB,
-                                tooltip="Website",
-                                icon_size=30,
-                                # on_click=lambda e: open_link("https://mywebsite.com"),
+                            # Discord
+                            ft.ElevatedButton(
+                                content=ft.Image(src=str(discord_path), width=80, height=80),
+                                width=60,
+                                height=60,
+                                style=ft.ButtonStyle(padding=0, shape=ft.RoundedRectangleBorder(radius=40)),
+                                on_click=lambda e: open_link("https://discord.gg/dTsPDXMJ"),
                             ),
-                        ],
-                        alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
-                    ),
-                    ft.Row(
-                        controls=[
-                            ft.Text("My mail:", expand=1, size=18),
-                            ft.IconButton(
-                                icon=ft.Icons.EMAIL,
-                                tooltip="Email",
-                                icon_size=30,
+                            # Email
+                            ft.ElevatedButton(
+                                content=ft.Image(src=str(email_path), width=80, height=80),
+                                width=60,
+                                height=60,
+                                style=ft.ButtonStyle(padding=0, shape=ft.RoundedRectangleBorder(radius=40)),
                                 on_click=lambda e: open_link("mailto:nondeletable@gmail.com"),
                             ),
-                        ],
-                        alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
-                    ),
-                    ft.Row(
-                        controls=[
-                            ft.Text("My github:", expand=1, size=18),
-                            ft.IconButton(
-                                icon=ft.Icons.HUB,
-                                tooltip="GitHub",
-                                icon_size=30,
-                                on_click=lambda e: open_link("https://github.com/nondeletable"),
+                            # GitHub
+                            ft.ElevatedButton(
+                                content=ft.Image(src=str(github_path), width=80, height=80),
+                                width=60,
+                                height=60,
+                                style=ft.ButtonStyle(padding=0, shape=ft.RoundedRectangleBorder(radius=40)),
+                                on_click=lambda e: open_link("https://github.com/nondeletable/URL-Cutter"),
                             ),
                         ],
-                        alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
+                        alignment=ft.MainAxisAlignment.CENTER,
+                        spacing=40,
                     ),
                 ],
-                spacing=20,
+                spacing=15,
             ),
             actions=[ft.TextButton("OK", on_click=lambda e: self.close_dialog(dialog))],
         )
