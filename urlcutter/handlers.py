@@ -126,7 +126,7 @@ class Handlers:
                     ),
                     ft.Text(
                         "If you’d like to say thanks, leave feedback, report a bug, or discuss"
-                        "collaboration, feel free to contact me via Discord, email, or GitHub.",
+                        "collaboration, feel free to contact me via Discord, Email, or GitHub.",
                         size=15,
                         text_align=ft.TextAlign.CENTER,
                         font_family="Rubik2",
