@@ -109,7 +109,7 @@ class Handlers:
         discord_path = res.files("urlcutter").joinpath("assets/img/discord.svg")
         email_path = res.files("urlcutter").joinpath("assets/img/email.svg")
         github_path = res.files("urlcutter").joinpath("assets/img/github.svg")
-        
+
         dialog = ft.AlertDialog(
             title=ft.Text("ABOUT", text_align=ft.TextAlign.CENTER, font_family="Rubik"),
             shape=ft.RoundedRectangleBorder(radius=8),
