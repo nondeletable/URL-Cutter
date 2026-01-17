@@ -330,7 +330,7 @@ def test_on_open_info_adds_dialog(monkeypatch):
     dialog = dialogs[0]
     assert dialog.open is True
     assert isinstance(dialog.title, ft.Text)
-    assert "My contacts" in dialog.title.value
+    assert "ABOUT" in dialog.title.value
 
 
 def test_back_to_saved_view_titlebar_error(monkeypatch):
@@ -393,19 +393,23 @@ def test_on_open_info_button_opens_link(monkeypatch):
 
     h.on_open_info(None)
 
-    # найдём первую IconButton и вызовем её on_click
     dialog = next(ctrl for ctrl in page.overlay if isinstance(ctrl, ft.AlertDialog))
+
+    # Найдём Row с кнопками и первую ElevatedButton
     btn = None
-    for row in dialog.content.controls:
-        if isinstance(row, ft.Row):
-            for c in row.controls:
-                if isinstance(c, ft.IconButton):
+    for ctrl in dialog.content.controls:
+        if isinstance(ctrl, ft.Row):
+            for c in ctrl.controls:
+                if isinstance(c, ft.ElevatedButton):
                     btn = c
                     break
     assert btn is not None
+
+    # Клик
     btn.on_click(None)
 
-    assert "http" in opened["url"] or "mailto" in opened["url"]
+    assert opened.get("url") is not None
+    assert ("http" in opened["url"]) or ("mailto:" in opened["url"])
 
 
 def test_on_open_history_failure(monkeypatch):
