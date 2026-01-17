@@ -112,7 +112,7 @@ def main(page):  # можно без аннотации, чтобы не дер�
     logger = setup_logging(enabled=LOG_ENABLED, debug=LOG_DEBUG)
     U.configure_window_and_theme(page)
 
-    # --- строим основной UI шортенера ---
+    # --- строим основной UI шортенера (как раньше) ---
     header_col = U.build_header()
     url_input_field, short_url_field = U.build_inputs()
     button_row, shorten_button, clear_button, copy_button = U.build_buttons()

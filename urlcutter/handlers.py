@@ -1,4 +1,3 @@
-import importlib.resources as res
 import logging
 import webbrowser
 from concurrent.futures import TimeoutError as FutTimeout
@@ -105,10 +104,6 @@ class Handlers:
     def on_open_info(self, _):
         def open_link(url):
             webbrowser.open(url)
-
-        discord_path = res.files("urlcutter").joinpath("assets/img/discord.svg")
-        email_path = res.files("urlcutter").joinpath("assets/img/email.svg")
-        github_path = res.files("urlcutter").joinpath("assets/img/github.svg")
 
         dialog = ft.AlertDialog(
             title=ft.Text("ABOUT", text_align=ft.TextAlign.CENTER, font_family="Rubik"),
