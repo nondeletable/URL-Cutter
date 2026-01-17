@@ -1,3 +1,4 @@
+import importlib.resources as res
 import logging
 import webbrowser
 from concurrent.futures import TimeoutError as FutTimeout
@@ -105,6 +106,10 @@ class Handlers:
         def open_link(url):
             webbrowser.open(url)
 
+        discord_path = res.files("urlcutter").joinpath("assets/img/discord.svg")
+        email_path = res.files("urlcutter").joinpath("assets/img/email.svg")
+        github_path = res.files("urlcutter").joinpath("assets/img/github.svg")
+        
         dialog = ft.AlertDialog(
             title=ft.Text("ABOUT", text_align=ft.TextAlign.CENTER, font_family="Rubik"),
             shape=ft.RoundedRectangleBorder(radius=8),
@@ -121,7 +126,7 @@ class Handlers:
                     ),
                     ft.Text(
                         "If you’d like to say thanks, leave feedback, report a bug, or discuss"
-                        "collaboration, feel free to contact me via Discord, Email, or GitHub.",
+                        "collaboration, feel free to contact me via Discord, email, or GitHub.",
                         size=15,
                         text_align=ft.TextAlign.CENTER,
                         font_family="Rubik2",
