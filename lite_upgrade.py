@@ -104,11 +104,10 @@ def main(page):  # можно без аннотации, чтобы не дер�
     import flet as ft  # NEW: нужен для Container
 
     import urlcutter.ui_builders as U  # noqa: PLC0415
-
-    # from urlcutter.db.migrate import upgrade_to_head  # noqa: PLC0415
+    from urlcutter.db.migrate import upgrade_to_head  # noqa: PLC0415
     from urlcutter.handlers import Handlers  # noqa: PLC0415
 
-    # upgrade_to_head()
+    upgrade_to_head()
 
     logger = setup_logging(enabled=LOG_ENABLED, debug=LOG_DEBUG)
     U.configure_window_and_theme(page)
