@@ -6,12 +6,12 @@ import flet as ft
 def configure_window_and_theme(page: ft.Page):
     page.window.center()
     page.title = "URL CUTTER"
-    page.vertical_alignment = ft.MainAxisAlignment.CENTER
+    page.vertical_alignment = ft.MainAxisAlignment.START
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.window.resizable = False
     page.adaptive = True
     page.window.width = 445
-    page.window.height = 730
+    page.window.height = 710
     page.window.title_bar_hidden = True
     page.window.frameless = False
 
@@ -46,7 +46,7 @@ def build_title_bar(
     row = ft.Row(
         controls=[info_button, drag_area, minimize_button, close_button],
         alignment=ft.MainAxisAlignment.END,
-        vertical_alignment=ft.CrossAxisAlignment.CENTER,
+        vertical_alignment=ft.CrossAxisAlignment.START,
     )
     return row, info_button, minimize_button, close_button, drag_area
 
@@ -104,7 +104,7 @@ def build_inputs() -> tuple[ft.TextField, ft.TextField]:
         label="Short URL",
         label_style=ft.TextStyle(color="#EB244E"),
         read_only=True,
-        height=60,
+        height=50,
         width=350,
         border_color="#EB244E",
     )
