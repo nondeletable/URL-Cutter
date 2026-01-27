@@ -29,41 +29,14 @@ A convenient desktop application for shortening long URLs, built with Python and
 
 ---
 
-## ⚙️ How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/nondeletable/URL-Cutter.git
-cd URL-Cutter
-```
-
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the app:
-
-```bash
-python lite_upgrade.py
-```
----
-
 ## 📸 Screenshots
 
-Main window
 
-![Main window](urlcutter/assets/screenshots/main%20window.jpg)
+![Main window](urlcutter/assets/screenshots/url_cut.jpeg)
 
-Dropdown menu
+![2](urlcutter/assets/screenshots/url_cut_2.jpeg)
 
-![Dropdown menu](urlcutter/assets/screenshots/dropdown%20menu.jpg)
-
-History window
-
-![History window](urlcutter/assets/screenshots/history.jpg)
+![3](urlcutter/assets/screenshots/url_cut_3.jpeg)
 
 ---
 
