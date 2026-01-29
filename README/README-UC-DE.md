@@ -12,7 +12,7 @@
     <a href="https://github.com/nondeletable/URL-Cutter/tree/master/README/README-UC-RU.md">Русский </a>
     <br>
     <br>
-    <img src="promo/url_cut_2.png" alt="URL Cutter by nondeletable" width="98%"/>
+    <img src="promo/url_cut_2.jpeg" alt="URL Cutter by nondeletable" width="98%"/>
     <br>
     <br>
   </p>
