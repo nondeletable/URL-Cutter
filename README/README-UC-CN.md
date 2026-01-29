@@ -6,10 +6,10 @@
 <p>一款轻量级桌面应用，用于缩短长链接并进行高效管理——支持历史记录、搜索和快速复制。</p>
   <p>
 	<a href="https://github.com/nondeletable/URL-Cutter/tree/master/README/README-UC-EN.md">English </a> |
-    <a href="https://github.com/nondeletable/URL-Cutter/blob/master/README/README-UC-DE.md">Deutsch </a> |
-    <a href="https://github.com/nondeletable/URL-Cutter/blob/master/README/README-UC-CN.md">简体中文 </a> |
-    <a href="https://github.com/nondeletable/URL-Cutter/blob/master/README/README-UC-VN.md">Tiếng Việt </a> |
-    <a href="https://github.com/nondeletable/URL-Cutter/blob/master/README/README-UC-RU.md">Русский </a>
+    <a href="https://github.com/nondeletable/URL-Cutter/tree/master/README/README-UC-DE.md">Deutsch </a> |
+    <a href="https://github.com/nondeletable/URL-Cutter/tree/master/README/README-UC-CN.md">简体中文 </a> |
+    <a href="https://github.com/nondeletable/URL-Cutter/tree/master/README/README-UC-VN.md">Tiếng Việt </a> |
+    <a href="https://github.com/nondeletable/URL-Cutter/tree/master/README/README-UC-RU.md">Русский </a>
     <br>
     <br>
     <img src="promo/url_cut_2.jpeg" alt="URL Cutter by nondeletable" width="98%"/>
