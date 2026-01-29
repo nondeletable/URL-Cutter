@@ -5,11 +5,11 @@
 <h2>URL Cutter</h2>
 <p>Лёгкое настольное приложение для сокращения длинных ссылок и их удобной организации - с историей, поиском и быстрым копированием.</p>
   <p>
-	<a href="insert">English </a> |
-    <a href="insert">Deutsch </a> |
-    <a href="insert">简体中文 </a> |
-    <a href="insert">Tiếng Việt </a> |
-    <a href="insert">Русский </a>
+	<a href="https://github.com/nondeletable/URL-Cutter/tree/master/README/README-UC-EN.md">English </a> |
+    <a href="https://github.com/nondeletable/URL-Cutter/blob/master/README/README-UC-DE.md">Deutsch </a> |
+    <a href="https://github.com/nondeletable/URL-Cutter/blob/master/README/README-UC-CN.md">简体中文 </a> |
+    <a href="https://github.com/nondeletable/URL-Cutter/blob/master/README/README-UC-VN.md">Tiếng Việt </a> |
+    <a href="https://github.com/nondeletable/URL-Cutter/blob/master/README/README-UC-RU.md">Русский </a>
     <br>
     <br>
     <img src="promo/url_cut_2.jpeg" alt="URL Cutter by nondeletable" width="98%"/>
