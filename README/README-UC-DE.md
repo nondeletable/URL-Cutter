@@ -5,10 +5,10 @@
 <h2>URL Cutter</h2>
 <p>Eine schlanke Desktop-App zum Kürzen langer Links und zum übersichtlichen Verwalten – mit Verlauf, Suche und schneller Kopierfunktion.</p>
   <p>
-	<a href="insert">English </a> |  
+	<a href="insert">English </a> |
     <a href="insert">Deutsch </a> |
-    <a href="insert">简体中文 </a> | 
-    <a href="insert">Tiếng Việt </a> | 
+    <a href="insert">简体中文 </a> |
+    <a href="insert">Tiếng Việt </a> |
     <a href="insert">Русский </a>
     <br>
     <br>
@@ -92,20 +92,20 @@
 Wenn du zusammenarbeiten möchtest oder über eine Job-Möglichkeit sprechen willst, nutze gern einen der Kontakte unten.
 Für Support oder Bug-Reports bitte Discord oder GitHub Issues verwenden. Ich antworte in der Regel innerhalb von 24 Stunden.
 
-- 🐙 **GitHub** page – Dokumentation, Releases, Quellcode  
+- 🐙 **GitHub** page – Dokumentation, Releases, Quellcode
   https://github.com/nondeletable
-- 💬 **Discord** – Neuigkeiten, Support, Fragen und Bug-Reports  
+- 💬 **Discord** – Neuigkeiten, Support, Fragen und Bug-Reports
   https://discord.com/invite/6nvXwXp78u
-- ✈️ **Telegram** – Direktnachrichten  
+- ✈️ **Telegram** – Direktnachrichten
   https://t.me/nondeletable
-- 📧 **Email** – für formelle oder geschäftliche Anfragen  
+- 📧 **Email** – für formelle oder geschäftliche Anfragen
   nondeletable@gmail.com
-- 💼 **LinkedIn** – professionelles Profil  
+- 💼 **LinkedIn** – professionelles Profil
   https://www.linkedin.com/in/aleksandra-gicheva-3b0264341/
-- ☕ **Boosty** – Unterstützung meiner Arbeit und Projekte durch Spenden  
+- ☕ **Boosty** – Unterstützung meiner Arbeit und Projekte durch Spenden
   https://boosty.to/codebird/donate
 &nbsp;
 &nbsp;
 
-**Vielen Dank, dass du URL Cutter verwendest!**  
+**Vielen Dank, dass du URL Cutter verwendest!**
 Mögen deine Links kurz sein – und deine Tage lang und voller Freude! 🔗✨🙂

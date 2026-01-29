@@ -5,10 +5,10 @@
 <h2>URL Cutter</h2>
 <p>A lightweight desktop app to shorten long links and keep them organized - with history, search, and quick copy.</p>
   <p>
-	<a href="insert">English </a> |  
+	<a href="https://github.com/nondeletable/URL-Cutter/tree/master/urlcutter/">English </a> |
     <a href="insert">Deutsch </a> |
-    <a href="insert">简体中文 </a> | 
-    <a href="insert">Tiếng Việt </a> | 
+    <a href="insert">简体中文 </a> |
+    <a href="insert">Tiếng Việt </a> |
     <a href="insert">Русский </a>
     <br>
     <br>
@@ -92,20 +92,20 @@
 If you’d like to collaborate or discuss a job opportunity - use any of the contacts below.
 For support/bugs, please use Discord or GitHub Issues. I usually reply within 24 hours.
 
-- 🐙 **GitHub** page (docs, releases, source code)  
+- 🐙 **GitHub** page (docs, releases, source code)
   https://github.com/nondeletable
-- 💬 **Discord** - news, support, questions, and bug reports  
+- 💬 **Discord** - news, support, questions, and bug reports
   https://discord.com/invite/6nvXwXp78u
-- ✈️ **Telegram** - direct messages  
+- ✈️ **Telegram** - direct messages
   https://t.me/nondeletable
-- 📧 **Email** - for formal or business inquiries  
+- 📧 **Email** - for formal or business inquiries
   nondeletable@gmail.com
-- 💼 **LinkedIn** - professional profile  
+- 💼 **LinkedIn** - professional profile
   https://www.linkedin.com/in/aleksandra-gicheva-3b0264341/
-- ☕ **Boosty** - support my work and projects with donations  
-  https://boosty.to/codebird/donate  
+- ☕ **Boosty** - support my work and projects with donations
+  https://boosty.to/codebird/donate
 &nbsp;
 &nbsp;
 
-**Thank you for using URL Cutter!**  
+**Thank you for using URL Cutter!**
 May your links be short, and your days long and joyful!. 🔗✨🙂

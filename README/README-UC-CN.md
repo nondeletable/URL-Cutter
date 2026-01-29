@@ -5,10 +5,10 @@
 <h2>URL Cutter</h2>
 <p>一款轻量级桌面应用，用于缩短长链接并进行高效管理——支持历史记录、搜索和快速复制。</p>
   <p>
-	<a href="insert">English </a> |  
+	<a href="insert">English </a> |
     <a href="insert">Deutsch </a> |
-    <a href="insert">简体中文 </a> | 
-    <a href="insert">Tiếng Việt </a> | 
+    <a href="insert">简体中文 </a> |
+    <a href="insert">Tiếng Việt </a> |
     <a href="insert">Русский </a>
     <br>
     <br>
@@ -89,23 +89,23 @@
 
 ## ☎ 支持与联系方式
 
-如果你希望合作或讨论工作机会，请使用以下任意联系方式。  
+如果你希望合作或讨论工作机会，请使用以下任意联系方式。
 如需支持或提交问题，请使用 Discord 或 GitHub Issues。通常我会在 24 小时内回复。
 
-- 🐙 **GitHub**（文档、发布版本、源代码）  
+- 🐙 **GitHub**（文档、发布版本、源代码）
   https://github.com/nondeletable
-- 💬 **Discord**（新闻、支持、问题与 Bug 报告）  
+- 💬 **Discord**（新闻、支持、问题与 Bug 报告）
   https://discord.com/invite/6nvXwXp78u
-- ✈️ **Telegram**（私信）  
+- ✈️ **Telegram**（私信）
   https://t.me/nondeletable
-- 📧 **Email**（正式或商务联系）  
+- 📧 **Email**（正式或商务联系）
   nondeletable@gmail.com
-- 💼 **LinkedIn**（职业主页）  
+- 💼 **LinkedIn**（职业主页）
   https://www.linkedin.com/in/aleksandra-gicheva-3b0264341/
-- ☕ **Boosty**（支持我的工作和项目）  
-  https://boosty.to/codebird/donate  
+- ☕ **Boosty**（支持我的工作和项目）
+  https://boosty.to/codebird/donate
 &nbsp;
 &nbsp;
 
-**感谢你使用 URL Cutter！**  
+**感谢你使用 URL Cutter！**
 愿你的链接更短，生活更长、更美好！🔗✨🙂

@@ -5,10 +5,10 @@
 <h2>URL Cutter</h2>
 <p>Ứng dụng desktop gọn nhẹ giúp rút gọn các liên kết dài và quản lý chúng một cách gọn gàng - với lịch sử, tìm kiếm và sao chép nhanh.</p>
   <p>
-	<a href="insert">English </a> |  
+	<a href="insert">English </a> |
     <a href="insert">Deutsch </a> |
-    <a href="insert">简体中文 </a> | 
-    <a href="insert">Tiếng Việt </a> | 
+    <a href="insert">简体中文 </a> |
+    <a href="insert">Tiếng Việt </a> |
     <a href="insert">Русский </a>
     <br>
     <br>
@@ -89,23 +89,23 @@
 
 ## ☎ Hỗ trợ & liên hệ
 
-Nếu bạn muốn hợp tác hoặc trao đổi về cơ hội công việc, hãy sử dụng các kênh liên hệ bên dưới.  
+Nếu bạn muốn hợp tác hoặc trao đổi về cơ hội công việc, hãy sử dụng các kênh liên hệ bên dưới.
 Đối với hỗ trợ hoặc báo lỗi, vui lòng dùng Discord hoặc GitHub Issues. Tôi thường phản hồi trong vòng 24 giờ.
 
-- 🐙 **GitHub** (tài liệu, bản phát hành, mã nguồn)  
+- 🐙 **GitHub** (tài liệu, bản phát hành, mã nguồn)
   https://github.com/nondeletable
-- 💬 **Discord** (tin tức, hỗ trợ, câu hỏi và báo lỗi)  
+- 💬 **Discord** (tin tức, hỗ trợ, câu hỏi và báo lỗi)
   https://discord.com/invite/6nvXwXp78u
-- ✈️ **Telegram** (tin nhắn trực tiếp)  
+- ✈️ **Telegram** (tin nhắn trực tiếp)
   https://t.me/nondeletable
-- 📧 **Email** (liên hệ chính thức hoặc kinh doanh)  
+- 📧 **Email** (liên hệ chính thức hoặc kinh doanh)
   nondeletable@gmail.com
-- 💼 **LinkedIn** (hồ sơ nghề nghiệp)  
+- 💼 **LinkedIn** (hồ sơ nghề nghiệp)
   https://www.linkedin.com/in/aleksandra-gicheva-3b0264341/
-- ☕ **Boosty** (ủng hộ công việc và các dự án của tôi)  
-  https://boosty.to/codebird/donate  
+- ☕ **Boosty** (ủng hộ công việc và các dự án của tôi)
+  https://boosty.to/codebird/donate
 &nbsp;
 &nbsp;
 
-**Cảm ơn bạn đã sử dụng URL Cutter!**  
+**Cảm ơn bạn đã sử dụng URL Cutter!**
 Chúc các liên kết của bạn luôn ngắn gọn, và những ngày của bạn luôn dài và vui vẻ! 🔗✨🙂
